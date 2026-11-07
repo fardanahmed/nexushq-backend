@@ -24,9 +24,7 @@ const settings = {
   about_content: {
     mission: 'Our mission is to empower coaches, tutors, and mentors with the tools they need to build thriving businesses.',
     preamble:
-      'NexusHQ was born from a simple observation: coaches spend more time on admin than on coaching.
-
-We built a platform that handles scheduling, payments, client management, and video sessions, so you can focus on what you do best.',
+      'NexusHQ was born from a simple observation: coaches spend more time on admin than on coaching.\n\nWe built a platform that handles scheduling, payments, client management, and video sessions, so you can focus on what you do best.',
     vision: 'A world where every great coach has the tools to scale their impact, without the overhead.'
   },
   mentorship_content: {
