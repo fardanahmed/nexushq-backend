@@ -13,7 +13,8 @@ const userSchema = new mongoose.Schema({
     type: String,
     required: true,
     minlength: 6
-  }
+  },
+  role: { type: String, enum: ['coach', 'client'], default: 'client' }
 }, { timestamps: true });
 
 // ARCHITECTURE UPDATE: Removed the 'next' callback. 
