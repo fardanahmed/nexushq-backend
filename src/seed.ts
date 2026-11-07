@@ -11,7 +11,24 @@ const features = [
   { title: 'Payments & Invoicing', description: 'Accept payments, send invoices, and manage subscriptions — all in one dashboard.', icon: 'CreditCard' }
 ];
 
+// hero_content and about_content mirror the defaults in the frontend (Hero.astro, about.astro),
+// so a seeded database shows the same copy as an unseeded one.
 const settings = {
+  hero_content: {
+    headline: 'Run your coaching practice from one place.',
+    subheadline:
+      'Clients book and pay, you meet on video, and notes and progress stay with the client. Built for solo coaches, tutors and mentors.',
+    ctaPrimary: 'Join the waitlist',
+    ctaSecondary: 'See features'
+  },
+  about_content: {
+    mission: 'Our mission is to empower coaches, tutors, and mentors with the tools they need to build thriving businesses.',
+    preamble:
+      'NexusHQ was born from a simple observation: coaches spend more time on admin than on coaching.
+
+We built a platform that handles scheduling, payments, client management, and video sessions, so you can focus on what you do best.',
+    vision: 'A world where every great coach has the tools to scale their impact, without the overhead.'
+  },
   mentorship_content: {
     title: 'Expert Coaching Tools',
     description: 'Everything you need to run a professional coaching business.',
